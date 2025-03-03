@@ -9,7 +9,6 @@ namespace Initializers
     public class MatricesInitializer : IInitializable
     {
         [Inject] private IDataLoader _dataLoader;
-        [Inject] private IMatrixProcessor _matrixProcessor;
         [Inject] private IMatchFinder _matchFinder;
         [Inject] private IMatrixVisualizer _matrixVisualizer;
         [Inject] private IMatchExporter _matchExporter;

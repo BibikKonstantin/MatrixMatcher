@@ -17,7 +17,6 @@ namespace DI
             Container.BindInterfacesAndSelfTo<PrefabsHandler>().AsSingle();
             Container.BindInterfacesAndSelfTo<DataLoader>().AsSingle();
             
-            Container.Bind<IMatrixProcessor>().To<MatrixProcessor>().AsSingle();  
             Container.BindInterfacesAndSelfTo<MatchFinder>().AsSingle(); 
             
             Container.BindInterfacesAndSelfTo<MatrixVisualizer>().AsSingle();
